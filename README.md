@@ -1,5 +1,7 @@
 # GitHub PNPM Spec Resolver (Firefox)
 
+<img src="./image.png" width="30%" />
+
 Firefox WebExtension that annotates `package.json` on GitHub `/blob/` pages with resolved versions for pnpm specs:
 
 - `workspace:*`, `workspace:^`, `workspace:~`, `workspace:<semver>`
