@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "GitHub PNPM Spec Resolver",
+  "version": "0.1.10",
+  "description": "Shows resolved versions for pnpm workspace/catalog dependency specs on GitHub package.json views.",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://github.com/*"
+      ],
+      "js": [
+        "src/content-script.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "host_permissions": [
+    "https://api.github.com/*"
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "github-pnpm-resolver@example.local"
+    }
+  }
+}
