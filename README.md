@@ -1,6 +1,9 @@
 # GitHub PNPM Spec Resolver (Firefox)
 
-<img src="./image.png" width="30%" />
+<img src="./image.png" width="40%" />
+
+↑ Preview.
+Test for [Slidev](https://github.com/slidevjs/slidev/blob/c8a7b7d639ff0a26cf3de036505668263ef5a3b0/docs/package.json)
 
 Firefox WebExtension that annotates `package.json` on GitHub `/blob/` pages with resolved versions for pnpm specs:
 
